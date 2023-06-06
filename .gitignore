@@ -1,3 +1,10 @@
+# Mes fichiers
+Dockerfile
+requirements.txt
+mlflow230606.pem
+secrets.sh
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
