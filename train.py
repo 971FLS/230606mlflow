@@ -11,6 +11,10 @@ from sklearn.pipeline import Pipeline
 
 if __name__ == "__main__":
 
+
+    # Set Tracking URI
+    mlflow.set_tracking_uri("https://mlflowdemofls.herokuapp.com")
+
     ### MLFLOW Experiment setup
     experiment_name="FLSdebug"
     mlflow.set_experiment(experiment_name)
